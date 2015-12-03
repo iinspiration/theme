@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!-- saved from url http://www.bootstraptor.com ####################################################################
+Don't remove this attribution. 
+This template build on DevKit http://www.bootstraptor.com 
+under GPL license 
+##########################################################################
+-->
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Base page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<style type="text/css">
+      body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+		background:#e0e0e0;
+      }
+		.wrapper{
+		max-width:1210px;
+		display:block;
+		margin-right:auto;
+		margin-left:auto;
+		background:#fff;
+	}
+	
+	.container{
+		padding:0px 20px;
+	}
+	
+	.navbar {
+		margin-bottom: 0px;
+	}
+	.navbar .nav > li > a {
+		float: none;
+		padding: 30px 20px 30px;
+	}
+	
+	.navbar .brand {
+		padding: 30px 20px 30px;
+	}
+	
+	.navbar-inner {
+		min-height: 40px;
+		padding-right: 20px;
+		padding-left: 20px;
+		background-color: #fff;
+		background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+		background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+		background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+		background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+		background-repeat: repeat-x;
+		border: none;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
+		-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+		-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	}
+	
+	.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	color: #333;
+	text-decoration: none;
+	background-color: #e5e5e5;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	}
+	
+	
+	
+	header .well{
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+		border-right:0px;
+		border-left:0px;
+	}
+	
+	.sub{
+		padding:30px 0px 30px;
+	}
+	
+	.totop{
+		margin-top:0px;
+	}
+	
+	.attention{
+		background:#282828;
+		color:#fff;
+		display:block;
+		padding:14px;
+		margin-bottom:20px;
+	}
+	
+	h1 {
+		font-size: 32.5px;
+	}
+	.attention h2, .attention h3{
+		font-size:30px;
+	}
+	
+	p{
+		text-align:justify;
+	}
+	
+	.thumbnail{
+		margin-bottom:30px;
+	}
+	
+	.thumbnail img{
+		min-width:100%;
+	}
+	footer{
+		padding-top:40px;
+		margin-top:40px;
+		border-top:1px solid #dedede;
+		background:#282828;
+		color:#fff;
+	}
+	footer a{
+		color:#fff;
+	}
+	.related-projects{
+		padding-top:20px;
+		margin-top:20px;
+		
+	}
+	
+	@media (max-width: 979px){
+		.navbar .btn-navbar {
+			margin-top:20px;
+		}
+	}
+	
+	@media (max-width: 767px){
+		.container {
+			padding-right:20px;
+			padding-left:20px;
+		}
+	}
+
+	 
+    </style>
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
+
+
+<!--[if lt IE 7]>
+	<link href="assets/css/font-awesome-ie7.min.css" rel="stylesheet">
+	<![endif]-->
+    <!-- Fav and touch icons -->
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+<body>
+  
+<!-- MAIN WRAPPER class="wrapper" max-width="1110px"-->
+<div class="wrapper">
+	
+	<header>
+	<!-- NAVBAR-->
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#"><i class="fa-icon-beaker"></i> YOURSITE.COM</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE-HEADER-->
+	<div class="well">
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span12">
+						<h1>Bootstraptor awesome! Here goes awesome main marketing slogan!</h1>
+					</div>
+				</div>
+			</div>
+    </div>
+</header>
+<!-- PAGE-HEADER-->
+
+<div class="container sub">
+    <!-- row-fluid-->
+    <div class="row-fluid">
+	  <div class="span5">
+		<div class="attention totop">
+			<h2>ABOUT BOOTSTRAPTOR.COM</h2>
+			<p class="">Here goes sub-title. Write few words about your awesome project</p>
+		</div>
+		<p class="lead">
+			Lead paragraph. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+		</p>
+		<p>
+		Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+		</p>
+	  </div>
+	  
+	  <div class="span7">
+		<div class="thumbnail">
+			<img src="images/thumb.jpg" alt="post image">
+			<div class="caption">
+				<p>Donec id elit non mi porta gravida at eget metus. </p>
+			</div>
+		</div>
+	  </div>
+	  
+	</div>
+</div>
+
+<div class="container">
+<hr>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+			<div class="well">
+          <h4 class="text-center"><i class="fa-icon-fullscreen"></i> RESPONSIVE TEMPLATE</h4>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn" href="http://twitter.github.io/bootstrap/examples/hero.html#">View details »</a>
+				</p>
+		  </div>
+        </div>
+        <div class="span4">
+			<div class="well">
+				<h4 class="text-center"><i class="fa-icon-fullscreen"></i> RESPONSIVE TEMPLATE</h4>
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn" href="http://twitter.github.io/bootstrap/examples/hero.html#">View details »</a></p>
+			</div> 
+	   </div>
+        <div class="span4">
+			<div class="well">
+				<h4 class="text-center"><i class="fa-icon-fullscreen"></i> RESPONSIVE TEMPLATE</h4>
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn" href="http://twitter.github.io/bootstrap/examples/hero.html#">View details »</a></p>
+			</div> 
+	   </div>
+	   
+	   <div class="span4">
+			<div class="well">
+          <h4 class="text-center"><i class="fa-icon-fullscreen"></i> RESPONSIVE TEMPLATE</h4>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn" href="http://twitter.github.io/bootstrap/examples/hero.html#">View details »</a>
+				</p>
+		  </div>
+        </div>
+        <div class="span4">
+			<div class="well">
+				<h4 class="text-center"><i class="fa-icon-fullscreen"></i> RESPONSIVE TEMPLATE</h4>
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn" href="http://twitter.github.io/bootstrap/examples/hero.html#">View details »</a></p>
+			</div> 
+	   </div>
+        <div class="span4">
+			<div class="well">
+				<h4 class="text-center"><i class="fa-icon-fullscreen"></i> RESPONSIVE TEMPLATE</h4>
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+					<p><a class="btn" href="http://twitter.github.io/bootstrap/examples/hero.html#">View details »</a></p>
+			</div> 
+	   </div>
+	   
+	</div>
+</div>
+<!-- CONTAINER-->
+
+<div class="container">
+ <!-- related projects -->
+<div class="row related-projects">
+
+<div class="span12">
+	<h3>RELATED PROJECTS</h3>
+</div>
+ 
+ <!-- ITEM -->
+ <div class="span3">
+	<div class="thumbnail">
+        <!-- IMAGE CONTAINER-->
+        <img src="http://lorempixel.com/260/195/technics/1" alt=""> 
+		<!--END IMAGE CONTAINER-->
+		<!-- CAPTION -->
+		<div class="caption">
+			<h4 class="text-center">PROJECT TITLE</h4>
+			<p>
+			<a class="btn btn-block btn-success" href="#">
+			<i class="fa-icon-link fa-icon-large"></i> Read more
+			</a>
+			</p>
+		</div> 
+		<!--END CAPTION -->
+	</div>
+<!-- END: THUMBNAIL -->
+</div>
+<!-- END ITEM -->
+
+<!-- ITEM -->
+ <div class="span3">
+	<div class="thumbnail">
+        <!-- IMAGE CONTAINER-->
+        <img src="http://lorempixel.com/260/195/technics/1" alt=""> 
+		<!--END IMAGE CONTAINER-->
+		<!-- CAPTION -->
+		<div class="caption">
+			<h4 class="text-center">PROJECT TITLE</h4>
+			<a class="btn btn-block btn-success" href="#">
+			<i class="fa-icon-link fa-icon-large"></i> Read more
+			</a>
+			</p>
+		</div> 
+		<!--END CAPTION -->
+	</div>
+<!-- END: THUMBNAIL -->
+</div>
+<!-- END ITEM -->
+
+<!-- ITEM -->
+ <div class="span3">
+	<div class="thumbnail">
+        <!-- IMAGE CONTAINER-->
+        <img src="http://lorempixel.com/260/195/technics/1" alt=""> 
+		<!--END IMAGE CONTAINER-->
+		<!-- CAPTION -->
+		<div class="caption">
+			<h4 class="text-center">PROJECT TITLE</h4>
+			<p>
+			<a class="btn btn-block btn-success" href="#">
+			<i class="fa-icon-link fa-icon-large"></i> Read more
+			</a>
+			</p>
+		</div> 
+		<!--END CAPTION -->
+	</div>
+<!-- END: THUMBNAIL -->
+</div>
+<!-- END ITEM -->
+
+<!-- ITEM -->
+ <div class="span3">
+	<div class="thumbnail">
+        <!-- IMAGE CONTAINER-->
+        <img src="http://lorempixel.com/260/195/technics/1" alt=""> 
+		<!--END IMAGE CONTAINER-->
+		<!-- CAPTION -->
+		<div class="caption">
+			<h4 class="text-center">PROJECT TITLE</h4>
+			<p>
+			<a class="btn btn-block btn-success" href="#">
+			<i class="fa-icon-link fa-icon-large"></i> Read more
+			</a>
+			</p>
+		</div> 
+		<!--END CAPTION -->
+	</div>
+<!-- END: THUMBNAIL -->
+</div>
+<!-- END ITEM -->
+
+</div>
+ <!-- related projects -->
+ 
+</div> <!-- /container -->
+<!--/ CONTENT -->
+
+
+
+<!-- FOOTER-->
+<footer>
+<div class="container">
+	<div class="row-fluid">
+      <div class="span3">
+        <h4 class="line3 center standart-h4title"><span>Navigation</span></h4>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">project</a></li>
+          <li><a href="#">Elements</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+	  
+    <div class="span3">
+        <h4 class="line3 center standart-h4title"><span>Useful Links</span></h4>
+        <ul class="footer-links">
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstrap templates</a></li>
+        </ul>
+    </div> 
+	  
+	<div class="span3">
+        <h4 class="line3 center standart-h4title"><span>Useful Links</span></h4>
+        <ul class="footer-links">
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+          <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+		<li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstraptor.com</a></li>
+         <li><a href="http://www.bootstraptor.com">Bootstrap templates</a></li>
+        </ul>
+    </div>
+	
+    <div class="span3">
+        <h4 class="line3 center standart-h4title"><span>Our office</span></h4>
+		<address>
+			<strong>bootstraptor.com, LLC.</strong><br>
+			<i class="fa-icon-map-marker"></i> 795 Folsom Ave, Suite 600<br>
+			San Francisco, CA 94107<br>
+			<i class="fa-icon-phone-sign"></i> + 4 (123) 456-7890
+		
+		</address>
+    </div>
+  
+</div>
+	<hr>
+        <p>© bootstraptor.com Company 2013</p>
+  </div><!-- CONTAINER FOOTER-->
+	  
+</footer>
+
+
+</div>
+<!-- /end WRAPPER-->
+    <!-- Le javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap-transition.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-alert.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-modal.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-scrollspy.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-tab.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-tooltip.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-popover.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-button.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-collapse.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-carousel.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-typeahead.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-affix.js" type="text/javascript"></script>
+
+<script>
+ $('.carousel').carousel() 
+</script>
+
+</body>
+</html>

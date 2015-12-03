@@ -1,0 +1,5 @@
+04/25/2013 initial release
+04/28/2013 added Magazine corporate template
+05/02/2013 added Parallaxer template, BOOTSCROLLER template
+05/08/2013 fix Responsive vodeo project template / added to ../assets/js  script jquery.fitvids.min.js,
+added Prezenter template

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!-- saved from url http://www.bootstraptor.com ####################################################################
+Don't remove this attribution. 
+This template build on DevKit http://www.bootstraptor.com 
+under GPL license 
+##########################################################################
+-->
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Pinterest style page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<style type="text/css">
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+	  h1.error-title{
+		font-size:120px;
+		line-height:126px;
+		margin-bottom:20px;
+	  }
+	  .box{
+		margin-bottom:30px;
+	  }
+	  .thumbnail{
+		position:relative;
+	  }
+	  .plus{
+		position:absolute;
+		top:20px;
+		left:20px;
+		 /* IE 8 */
+		  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+		  /* IE 5-7 */
+		  filter: alpha(opacity=0);
+
+		  /* Netscape */
+		  -moz-opacity: 0;
+
+		  /* Safari 1.x */
+		  -khtml-opacity: 0;
+
+		  /* Good browsers */
+		  opacity: 0;
+	  }
+	  
+	  .thumbnail:hover .plus{
+		
+		 /* IE 8 */
+		  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+		  /* IE 5-7 */
+		  filter: alpha(opacity=100);
+
+		  /* Netscape */
+		  -moz-opacity: 1;
+
+		  /* Safari 1.x */
+		  -khtml-opacity: 1;
+
+		  /* Good browsers */
+		  opacity: 1;
+	  }
+	  
+	  /* isotop items animation */
+	  .isotope .isotope-item {
+		-moz-transition-property: -moz-transform, opacity;
+		-ms-transition-property: -moz-transform, opacity;
+		-o-transition-property: top, left, opacity;
+		transition-property: transform, opacity;
+		-webkit-transition-property: -webkit-transform, opacity;
+		}
+		.isotope .isotope-item {
+		-moz-transition-property: -moz-transform, opacity;
+		-ms-transition-property: -moz-transform, opacity;
+		-o-transition-property: top, left, opacity;
+		transition-property: transform, opacity;
+		-webkit-transition-property: -webkit-transform, opacity;
+		}
+		.isotope-item {
+		-moz-transition-duration: 0.8s;
+		-ms-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+		-webkit-transition-duration: 0.8s;
+		z-index: 2;
+		}
+	  
+	  @media (max-width: 767px){
+		.thumbnail img{
+			min-width:100%;
+			height:auto;
+		}
+	  }
+	  
+    </style>
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
+<!--[if lt IE 7]>
+	<link href="assets/css/font-awesome-ie7.min.css" rel="stylesheet">
+	<![endif]-->
+    <!-- Fav and touch icons -->
+
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<h1>Blog fully fluid & adaptive template (Isotop + Bootstrap)</h1>
+				</div>
+			</div>
+		</div>
+      </div>
+<div class="container">
+      	
+<!--###################-->
+<!-- START PORTFOLIO -->
+<!--###################-->
+<div id="container-folio" class="row">
+		
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+	  
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+	
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+	  
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+	
+<!-- portfolio item -->
+    <div class="span3 box" >
+		<!-- START WRAPPER IMG THUMBNAIL-->
+		<div class="thumbnail">
+				<!-- NAV LINKS -->
+				<div class="plus">
+						<a href="#" title="read more" class="btn btn-medium"><i class="fa-icon-heart"></i> Like</a>
+						<a href="#" title="pin it" class="btn btn-medium btn-danger">Pin it</a>
+				</div>
+				<!-- /NAV LINKS -->
+			<!-- / IMAGE-->
+			<img src="http://lorempixel.com/560/420/fashion/10" alt=""  />
+			<!-- / IMAGE-->
+			<div class="caption">
+				<!-- TITLE-->
+				<h3 class="single-title"><a href="#" title="">Blog Post Title</a></h3>
+				<!-- END TITLE-->
+		<!-- META-->
+		<span class="meta">
+			<i class="fa-icon-calendar"></i> January 1, 2013
+		</span>
+		<!-- END META-->
+		<!-- PARAGRAPH -->
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet enim eu nulla scelerisque tincidunt. 
+			</p>
+		<!-- /PARAGRAPH -->
+		
+		</div><!-- /caption-->
+	</div> 
+</div>
+<!-- END portfolio item -->
+	  
+
+</div><!--/ROW-->
+<!--###################-->
+<!-- END PORTFOLIO -->
+<!--###################-->
+      <hr>
+	    <!-- PAGINATION-->
+	  <div class="pagination text-center">
+	  <hr class="half"/>
+        <ul>
+          <li class="disabled"><a href="#">Previous</a></li>
+          <li class="active" id="page_nav"><a href="#">1</a></li>
+          <li id="page_nav"><a href="#">2</a></li>
+          <li id="page_nav"><a href="#" >3</a></li>
+          <li id="page_nav"><a href="#">4</a></li>
+          <li id="page_nav"><a href="#">5</a></li>
+          <li id="page_nav"><a href="#">Next</a></li>
+        </ul>
+      </div>
+	  <!-- END PAGINATION-->
+	  
+	  <hr>
+
+      <footer>
+        <p>© Company 2013</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap-transition.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-alert.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-modal.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-scrollspy.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-tab.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-tooltip.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-popover.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-button.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-collapse.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-carousel.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-typeahead.js" type="text/javascript"></script> 
+<script src="assets/js/bootstrap-affix.js" type="text/javascript"></script>
+
+
+<!-- Isotope init script -->
+
+<script type="text/javascript" src="assets/js/jquery.waitforimages.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+
+
+<script>
+		jQuery.noConflict()(function($){
+			var $container = $('#container-folio');
+					
+			if($container.length) {
+				$container.waitForImages(function() {
+					$(this).slideDown();
+					// initialize isotope
+					$container.isotope({
+					
+					  itemSelector : '.box',
+					  
+					  resizable: false, // disable normal resizing
+					 masonry: { columnWidth: $container.width() / 12 }
+					});
+					 
+						// update columnWidth on window resize
+						$(window).smartresize(function(){
+		
+							$(window).smartresize(function(){
+				  $container.isotope({
+					// update columnWidth to a percentage of container width
+					masonry: { columnWidth: $container.width() / 12 }
+				  }); 
+				  
+				  });
+
+		});
+					
+					
+					
+				},null,true);
+				
+			}});
+
+</script>
+<!-- / Isotope init script -->
+
+</body>
+</html>
